@@ -48,7 +48,7 @@
     JavaScript uses Event Propagation to handle how events travel through 
     the Document Object Model (DOM) when an event occurs and reaches the 
     target element, triggering further actions based on the event. It 
-    happens in three phases - Capturing, Targeting and Bubbling.
+    happens in three phases - Capturing, Targeting and Bubbling. 
 
     # Event bubbling :- What is bubble, it grows from bottom to upward. So
     inside ul, owl is present. So it will first trace inner element then a
@@ -101,6 +101,7 @@
     })
     */
 
+    // In the below code learn about the event spillover
     document.querySelector('#images').addEventListener('click', function(e){
         console.log(e.target.tagName);
         if(e.target.tagName === "IMG"){
