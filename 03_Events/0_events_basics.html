@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML events</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing image</h2>
+    <div >
+        <ul id="images">
+            <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+            <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+   </div>
+
+</body>
+<script>
+    // onclick on html and below not good. Always follow good practices
+    
+    // document.getElementById('owl').onclick=function(){
+    //     alert('Owl Clicked');
+    // }
+    
+    // Old approach attachEvent - in early days for IntExporer
+    // jQuery - onEvent listerner
+    // Good approach
+    
+    /*
+    Learn more about event types and the 3rd parameter false. By default
+    it is false in certain use cases needs to be true. Interview questions
+    and learn more about below types of events :- 
+    type, timestamp, defaultPrevented, target, toElement, *srcElement,
+    currentTarget, clientY, screenX, ScreenY, offset (position related), 
+    altKey, ctrlkey, shiftkey, keyCode
+    
+    */
+
+    /*Lets understand this false/true third parameter in addEvenetListener
+    Event propogation :- event bubling and event capturing (kr sakte ho aur 
+    rok bhi sakte ho)
+    Propogate: to produce new plants from a parent plant. 
+
+    JavaScript uses Event Propagation to handle how events travel through 
+    the Document Object Model (DOM) when an event occurs and reaches the 
+    target element, triggering further actions based on the event. It 
+    happens in three phases - Capturing, Targeting and Bubbling.
+
+    # Event bubbling :- What is bubble, it grows from bottom to upward. So
+    inside ul, owl is present. So it will first trace inner element then a
+    outer one. This is known as bubbling.
+
+    Capturing movement the reason we use true and false. Again it depends on
+    the use cases. Capturing movement is generally work on outer to inner.
+
+    Sometimes we don't to do bubling, then we can e.stopPropogation
+
+    When I clicked on google it redirects us to the Google landing page. But
+    I don't want this to happen preventDefault and stopPropogation. 
+
+    */
+    
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("clicked inside ul");
+    // },false);
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("owl clicked");
+    //     e.stopPropagation();
+    // },false);
+
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    //     console.log('google clicked');
+    // });
+
+    // Ex: Now let's take some real world scenario example
+    // When we will click the image it should disappear from the webpage
+    // Approach:Instead of taking each image id, lets target the ul element
+
+    /*
+    There are methods in the events like target, sometimes after selecting the
+    element we need to select the parent of that element, so there is method to
+    do this. See in our challenge we need to remove the whole element, not only
+    image because if we only remove the image the bullet point will still stay
+    there. So to do this => e.target.parentNode [method]
+    */
+
+    /* Below code is removing the element bt if click on li element it is removing
+    the whole ul that is not we wanted. To solve this we have tagName
+
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target.parentNode);
+        let removeIt = e.target.parentNode
+        // removeIt.parentNode.removeChild(removeIt); this also does the same
+        removeIt.remove();
+    })
+    */
+
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target.tagName);
+        if(e.target.tagName === "IMG"){
+            console.log(e.target.id);
+            let removeIt = e.target.parentNode;
+            removeIt.remove();
+        }
+    })
+
+
+</script>
+</html>
