@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Request</title>
+</head>
+<body style="background-color: #212121;color: aliceblue;">
+
+    <div>
+        <p>
+            The fetch API is relatively new, it was introduced in the 2015.
+            Before that everything was done using AJAX which stands for 
+            (Asynchronous JavaScript and XML). It is also important to
+            understand the AJAX, although not widely used but should have
+            strong understanding of it.
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest">
+                MDN_Doc: XMLHttpRequest
+            </a>
+            and
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState">
+                MDN_ReadyState: Ready Status
+            </a>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Value</th>
+                        <th>State</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0</td>
+                        <td>UNSENT</td>
+                        <td>Client has been created. open() not called yet.</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>OPENED</td>
+                        <td>open() has been called.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>HEADERS_RECEIVED</td>
+                        <td>send() has been called, and headers and status are available.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>LOADING</td>
+                        <td>Downloading; responseText holds partial data.</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>DONE</td>
+                        <td>The operation is complete.</td>
+                    </tr>   
+                </tbody>
+            </table>
+        </p>
+    </div>
+</body>
+<script>
+    // Assigment watch 5:22:00 -> to know more assignment
+
+    const requestUrl = 'https://api.github.com/users/hiteshchoudhary';
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', requestUrl);
+    xhr.onreadystatechange = function (){
+        console.log(xhr.readyState);
+        if(xhr.readyState === 4){
+            const data = JSON.parse(this.responseText);
+            console.log(data.followers);
+            // console.log(data);
+        }
+    }
+    xhr.send();
+</script>
+</html>
