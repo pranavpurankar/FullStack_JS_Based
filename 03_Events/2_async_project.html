@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Chai Aur Code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // Actually this is an method but also calls the API. it also an
+    // important aspect of it. Handler is callback without name.     
+    const sayHitesh = function(){
+        console.log("Pranav");  
+    }
+
+    const changeTest = function () { 
+        document.querySelector('h1').innerHTML 
+        = "Best JS Series";
+    }
+
+    const changeMe = setTimeout(changeTest, 3000);
+
+    // clearTimeout needs reference,which setTimeout needs to be change
+    
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeMe);
+        console.log("STOPPED");        
+    })
+
+
+</script>
+</html>
