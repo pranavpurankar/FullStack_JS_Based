@@ -1,27 +1,30 @@
 // This is after ES^6, classes in javascript is syntatical sugar
 
-// class User {
-//     constructor(username, email, password){
-//         this.username = username;
-//         this.email = email;
-//         this.password = password;
-//     }
+/*
+class User {
+    constructor(username, email, password){
+        this.username = username;
+        this.email = email;
+        this.password = password;
+    }
     
-//     encryptPassword(){
-//         return `${this.password}abc`
-//     }
+    encryptPassword(){
+        return `${this.password}abc`
+    }
 
-//     changeUsername(){
-//         return `${this.username.toUpperCase()}`
-//     }
-// }
+    changeUsername(){
+        return `${this.username.toUpperCase()}`
+    }
+}
 
-// const chai = new User("chai", "chai@example.com","123");
+const chai = new User("chai", "chai@example.com","123");
 
-// console.log(chai.encryptPassword());
-// console.log(chai.changeUsername());
+console.log(chai.encryptPassword());
+console.log(chai.changeUsername());
+*/
 
-// Behind
+// Same code or behind the scene on above code. Below is the code
+// which is same as above ref notes.
 
 function User(username, email, password){
     this.username = username;
