@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures</title>
+</head>
+<body style="background-color: #313131;">
+    <button id="orange" >Orange</button>
+    <button id="green" >Green</button>
+    
+<script>
+    // lexical Scoping -MDN example
+
+    // function init() {
+    //     let name = "Mozilla";
+    //     function displayName() {
+    //         console.log(name);
+    //     }
+    //     displayName();
+    // }
+    // init();
+
+    // lexical scoping Hitesh example
+
+    // function outer(){
+    //     let username = "pranav"
+    //     // console.log("Outer", secret);
+        
+    //     function inner(){
+    //         let secret = "my123"
+    //         console.log("inner",username);
+    //     }
+    //     function innerTwo(){
+    //         console.log("innerTwo", username);
+    //         console.log(secret);                        
+    //     }
+    //     inner();
+    //     innerTwo();
+    // }
+    // outer();
+    // console.log("Too Outer",username);
+    
+
+    // Clousers - MDN example
+    // function makeFunc(){
+    //     const name = "Mozilla";
+    //     function displayName(){
+    //         console.log(name);            
+    //     }
+    //     return displayName;
+    // }
+
+    // const myFunc = makeFunc();
+    // myFunc();
+
+</script>
+
+<script>
+    /*
+    Practical implementation of Closures by using buttons
+    Simple problem statement, when orange clicked make bg-color -> orange
+    same applied to green button. Now it is working, but hitesh give me
+    500 buttons and colors, oh no should I copy paste it 500 times, well
+    DRY(Do Not Repeat) not following.
+
+    So we write click handler, generic likh dete hai
+    
+        document.getElementById("orange").onclick = function (){
+            document.body.style.backgroundColor = "orange";
+        }
+    
+        document.getElementById("green").onclick = function (){
+            document.body.style.backgroundColor = "green";
+        }
+    */
+
+    function clickHandler(color){
+        // document.body.style.backgroundColor = `${color}`
+        return function(){
+            document.body.style.backgroundColor = `${color}`
+        }
+    }
+
+    document.getElementById('orange').onclick= clickHandler('orange');
+    document.getElementById('green').onclick= clickHandler('green');
+
+
+</script>
+</body>
+</html>
