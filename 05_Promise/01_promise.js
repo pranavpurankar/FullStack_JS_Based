@@ -13,7 +13,7 @@ Well nahi, before consuming promises, first let's understand how this
 promises are created?
 
 Creation of promises, promises takes a callbacks.When things got bigger
-callback inside callback, promises manager callback hell efficiently.
+callback inside callback, promises manages callback hell efficiently.
 
 Inside callbacks(resolve, reject) :- two possibilities either they will
 successfull or failed. Either videos of javascript will come or hitesh
@@ -42,7 +42,7 @@ promiseOne.then(function(){
 /*
 Steps:
 1. Someone/You created a promise; but the function is simple loging text
-after 1 sec. So what is point the point of resolve, reject.
+after 1 sec. So what is the point of resolve, reject.
 
 2. When resolve is executed, it will be connected to .then. Always 
 remember consume part will never execute first.
