@@ -2,25 +2,24 @@
 Daily Post Format
 
 JavaScript:
-    🖥️ Day 01 of #100DaysOfCode
-    🖥️ Day 01 of #21DaysOfJavaScript 
-    ✅ Topic Related:- Ex Today, I built searchUser API for my Chat application
+🖥️ Day 02 of #100DaysOfCode
+🖥️ Day 02 of #21DaysOfJavaScript
 
-    Topic Related:- Ex #MERNStack #WebDevelopment #JavaScript
+✅ Topic: Revisiting lexical structure and core terminology.
+
+#Fundamentals #JavaScript #JavaScriptTheDefinitiveGuide #ES6
+#buildinpublic
+@rawkode
 
 Leetcode:
-    🖥️ Day 01 of #100DaysOfCode
-    🖥️ Day 01 of #30DaysOfLeetcode
-    ✅ Topic Related:- Ex Today, I built searchUser API for my Chat application
-
-    Topic Related:- Ex #MERNStack #WebDevelopment #JavaScript
+🖥️ Day 01 of #100DaysOfCode
+🖥️ Day 01 of #30DaysOfLeetcode
+✅ Topic Related:- Ex Today, I built searchUser API for my Chat application
 
 TypeScript:
-    🖥️ Day 01 of #100DaysOfCode
-    🖥️ Day 01 of #12DaysOfTypeScript
-    ✅ Topic Related:- Ex Today, I built searchUser API for my Chat application
-
-    Topic Related:- Ex #MERNStack #WebDevelopment #JavaScript
+🖥️ Day 01 of #100DaysOfCode
+🖥️ Day 01 of #12DaysOfTypeScript
+✅ Topic Related:- Ex Today, I built searchUser API for my Chat application
 
 ==============================================================================
 
