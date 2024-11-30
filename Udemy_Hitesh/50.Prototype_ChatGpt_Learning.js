@@ -1,12 +1,12 @@
 /*
-This file contains the learning from the ChatGpt. I learned from
-hitesh. Used chatgpt to go in-depth & understood topic so well.
+This file contains the learning from the ChatGpt. Used chatgpt to go 
+in-depth & understood topic so well. I learned from hitesh. 
 
 # Topic: What is Prototype?
 
 It is a mechanism that allows object to share properties and methods.
 It is an essential feature of JavaScript object-oriented programming.
-Everyth JS object has a hidden internal property called [[prototype]]
+Every JS object has a hidden internal property called [[prototype]]
 that links it to another object, called its prototype.
 
 Key Points Prototypes:
@@ -15,8 +15,8 @@ methods from another.
 
 2) Prototype Chain: If you try to access a property or method on an
 Object, JavaScript looks for it on the object itself. If it dosen't 
-find it, it searhes up the prototype chain until it reaches null (the 
-end of the chain)
+find it, it searches up the prototype chain until it reaches null 
+(the end of the chain)
 
 3) Default Prototype: When you create an object or function, JavaScript
 automatically assigns a prototype to it. 
@@ -72,10 +72,11 @@ console.log(pranav.toString());
 
 // ------------------------------------------------------------------
 /* Why step 1 function is constructor function?
+
 A constructor function in JavaScript is a special type of function used
 to create and initialize objects. It becomes a "constructor" not because
 of a special keyword, but because of how it is called using the new
-keyword. Let's break it down step by step from a first-principle pers:
+keyword. Let's break it down step by step from a first-principle:
 
 1. What happens when you call a function with new?
 When you call a function with new, JavaScript performs following steps
@@ -481,3 +482,5 @@ const animal1 = new Animal();
 console.log(animal1.speak()); //Output: Animal speaking
 console.log(animal1 instanceof Animal); // true
 */
+
+// Visit Next Step Call Bind Apply
