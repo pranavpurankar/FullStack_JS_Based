@@ -392,8 +392,8 @@ Summary
 
 1. prototype:
     • Belongs to constructor functions (like Animal or Dog)
-    • It is used to define methods or properties that will be shared across
-      instances created by the constructor.
+    • It is used to define methods or properties that will be shared 
+      across instances created by the constructor.
     
   Example:
     
@@ -431,8 +431,8 @@ Summary
 
 --- Alternative Syntax to Animal.prototype.speak
 
-Instead of directly using Animal.prototype.speak, you can assign the entire
-prototype object at once. For example:
+Instead of directly using Animal.prototype.speak, you can assign the 
+entire prototype object at once. For example:
 
 function Animal(){}
 

@@ -195,8 +195,8 @@ class Calculator{
 
 // Topic: Getters and Setters
 /* 
-In javascript _ [underscore] doesn't have any meaning. It is just we take
-it as normal variable name.
+In javascript _ [underscore] doesn't have any meaning. It is just we 
+take it as normal variable name.
 */
 
 class Employee{
