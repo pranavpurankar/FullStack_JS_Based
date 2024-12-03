@@ -131,7 +131,7 @@ const pranav = new Human("ThePranav")
 
 Internally, JavaScript performs these steps:
     a). Create an empty object
-        const pranv = {}
+        const pranav = {}
 
     b). Set [[prototype]]:
         pranav.__proto__ = Human.prototype;
