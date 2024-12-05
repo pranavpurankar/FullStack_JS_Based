@@ -117,7 +117,88 @@ getBalance methods. Ensure balance can't go negative.
 */
 
 class BankAccount{
-    constructor(amount){
-        this.amount = amount;
+    #_balance=0;
+    constructor(name,amount){
+        this.name = name;
+        this.#_balance += amount;
+    }
+
+    getBalance(){
+        return `${this.name} Your Balance: ${this.#_balance}`;
+    }
+
+    setBalance(amount){
+        if (amount<0){
+            return "Balance can't be negative";
+        }
+        this.#_balance += amount;
+        return this.#_balance;
+    }
+
+    deposit(amount){
+        this.setBalance(amount);
+    }
+
+    withdraw(amount){
+        if(amount < 0){
+            throw new Error('Enter positive amount');
+        }
+        this.#_balance -= amount;
+        return this.#_balance;
+    }
+
+}
+
+// const bankOne = new BankAccount("pranav",500);
+// console.log(bankOne.getBalance());
+// bankOne.deposit(5000);
+// console.log(bankOne.getBalance())
+// bankOne.withdraw(700);
+// console.log(bankOne.getBalance());
+
+
+/* 
+6. Write a "Shape" class with a default area() method. Subclass it into
+"Circle" and "Rectangle", overriding area().
+*/
+
+class Area{
+    constructor(value){
+        this.value = value;
+    }
+    totalArea(){
+        return 'Your total area is: ';
+    }
+}
+
+class Circle extends Area{
+    totalArea(radius){
+        circleArea = Math.PI * (radius**2);
+        return circleArea;
+    }
+}
+
+class Rectangle extends Area{
+    totalArea(length,breadth){
+        let rectArea = length * breadth;
+        return rectArea;
+    }
+}
+
+
+/* 
+7. Create a "Library" class to manage books. Add methods to addBook,
+issueBook, and returnBook
+*/
+
+class Library{
+    constructor(bookName, author, year){
+        this.bookName = bookName;
+        this.author = author;
+        this.year = year;
+    }
+
+    addBook(){
+
     }
 }

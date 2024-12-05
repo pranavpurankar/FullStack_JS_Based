@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation</title>
+    <style>
+        body{
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: left;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Exaplanation -->
+    <section id="exaplanation">
+        <h2>Event Delegation in JavaScript</h2>
+        <p>
+            Event delegation is a technique in JavaScript where a single
+            event listener is attached to a parent element to manage events
+            on its child elements. Instead of adding individual listeners 
+            to each child, the event propogates (bubbles) up the DOM tree,
+            and the parent handles it.
+            <br><br>
+            This approach is highly efficient, especially when dealing with
+            dynamic elements added to the DOM after the page has loaded.
+
+        </p>
+        <br>
+        <p>
+            How it Works
+            <ol>
+                <li>Event Bubbling:</li>
+                <p>
+                    When an event occurs on element, it first triggers on the
+                    target element and then propogates upwards to its parent
+                    and ancestor elements.
+                </p>
+                <li>Using a Single Listener:</li>
+                <p>
+                    By listening for an event on a common ancestor of multiple
+                    elements, you can determine the specific child element that
+                    triggered the event using the event.target property.
+                </p>
+            </ol>
+        </p>
+
+        <br><br>
+        <p>
+            Advantages of Event Delegation
+            <ol>
+                <li>Performance</li>
+                <p>
+                    Reduces the number of event listeners, which saves memory
+                    and improves performance.
+                </p>
+                <li>Dynamic Elements</li>
+                <p>
+                    Automatically works for elements added to the DOM after
+                    the listener is set.
+                </p>
+            </ol>
+        </p>
+    </section>
+
+    <!-- Basic Example -->
+    <section id="example-1">
+        <h2>Add Item In the below list</h2>
+        <div id="parent">
+            <button class="child">Button 1</button>
+            <button class="child">Button 2</button>
+            <button class="child">Button 3</button>
+        </div>
+    </section>
+
+    <!-- Complex - Form Validation -->
+    <section>
+        <h2>Form Validation</h2>
+        <form id="dynamic-form">
+            <input type="text" name="username" placeholder="Username" class="input-field"/>
+            <input type="text" name="email" placeholder="Email" class="input-field"/>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Interview Level Problems -->
+    <!-- Table Row Click Handler -->
+    <!--
+    Create a table where clicking any cell logs the corresponding row's
+    data.
+    -->
+
+    <table id="data-table">
+        <tr><td>Row1, Cell 1</td><td>Row 1, Cell 2</td></tr>
+        <tr><td>Row2, Cell 1</td><td>Row 2, Cell 2</td></tr>
+    </table>
+
+    <!-- Dynamic List Management -->
+    <ul id="todo-list">
+        <li>Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li>
+    </ul>
+
+    <!-- Highlight Clicked Element -->
+    <!-- 
+    Build a gallery where the clicked image is highlighted by adding a
+    border.
+    -->
+    <div id="gallery">
+        <img src="../Assets/pexels-1.jpg" class="thumbnail">
+        <img src="../Assets/pexels-2.jpg" class="thumbnail">
+        <img src="../Assets/pexels-3.jpg" class="thumbnail">
+    </div>
+
+    <!-- Nested Delegation -->
+    <!-- 
+    Create a menu where clicking on any sub-item logs its next.
+    -->
+    <div id="menu">
+        <div class="item">Item 1
+            <div class="sub-item">Sub-item 1.1</div>
+            <div class="sub-item">Sub-item 1.2</div>
+        </div>
+        <div class="item">Item 2
+            <div class="sub-item">Sub-item 2.1</div>
+            <div class="sub-item">Sub-item 2.2</div>
+        </div>
+    </div>
+
+    <!-- Example Dynamic Form Element Addition -->
+    <!-- 
+    Handle dynamically added buttons in a form.
+    -->
+    <br> <br>
+    <form id="dynamic-form">
+        <button id="add-btn" type="button">Add Input</button>
+    </form>
+
+    <script src="./56.EventDelegation.js"></script>
+</body>
+</html>
