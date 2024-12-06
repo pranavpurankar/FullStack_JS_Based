@@ -14,7 +14,23 @@
             width: 200px;
             height: 200px;
         }
-        
+        .inputContainer{
+            width: 60%;
+            background-color: darkred;
+            padding: 10px;
+            margin: 50px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .inputContainer input{
+            height: 50px;
+        }
+        .buttonContainer{
+            margin: 20px;
+        }
+
+
     </style>
 </head>
 <body>
@@ -142,6 +158,29 @@
     <form id="dynamic-form">
         <button id="add-btn" type="button">Add Input</button>
     </form>
+
+    <br><br>
+
+    <!-- Practise Problems -->
+    <!-- Create a to-do list where items can be added, marked as
+     done or deleted using a single event listener.
+    -->
+    <h2>Todo-list </h2>
+    <div class="inputContainer">
+        <input type="text" name="Add Task" id="taskName">
+        <div class="buttonContainer">
+            <button id="add">Add</button>
+            <button id="remove">Remove</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <div class="listContainer">
+        <ol id="listItems">
+            <!-- <li>I am default</li> -->
+        </ol>
+    </div>
+
+
 
     <script src="./56.EventDelegation.js"></script>
 </body>

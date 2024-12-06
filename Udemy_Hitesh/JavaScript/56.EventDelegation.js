@@ -178,4 +178,7 @@ form.addEventListener("click", (event) => {
     input.name = `field-${form.querySelectorAll("input").length}`;
     form.appendChild(input);
   }
-})
+}) 
+
+// Example: Practise Exercise
+
