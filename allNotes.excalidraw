@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "text",
-      "version": 216,
-      "versionNonce": 496424548,
+      "version": 217,
+      "versionNonce": 42406520,
       "isDeleted": false,
       "id": "KdSl_oEnqyN6DbarErkdZ",
       "fillStyle": "solid",
@@ -28,7 +28,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890567,
+      "updated": 1733754787242,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -39,7 +39,7 @@
       "containerId": null,
       "originalText": "ASYNC Code",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "text",
@@ -77,7 +77,7 @@
       "containerId": null,
       "originalText": "-> Synchronous:- The code will be executed line by line.\n-> Single threaded :- It works on single threaded.\n\nBy default it is synchronous. It never happens that code is going to execute only on Js engine.\nIt always comes with the javascript runtime environments like browsers runtime or node js.\n\nSo the above things are applicable to default javascript. We know that default things won't work",
       "lineHeight": 1.2,
-      "baseline": 162
+      "baseline": 163
     },
     {
       "type": "text",
@@ -115,7 +115,7 @@
       "containerId": null,
       "originalText": "• JavaScript",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "rectangle",
@@ -186,7 +186,7 @@
       "containerId": null,
       "originalText": "-> Execute one line of code at a time",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -225,7 +225,7 @@
       "containerId": null,
       "originalText": "• Execution Context",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "line",
@@ -713,7 +713,7 @@
       "containerId": null,
       "originalText": "console log -> 1",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -757,7 +757,7 @@
       "containerId": null,
       "originalText": "console log -> 2",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -840,7 +840,7 @@
       "containerId": null,
       "originalText": "• Blocking Code VS Non Blocking Code",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "arrow",
@@ -1081,7 +1081,7 @@
       "containerId": null,
       "originalText": "Read file Sync",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -1120,7 +1120,7 @@
       "containerId": null,
       "originalText": "Read file async",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -1158,7 +1158,7 @@
       "containerId": null,
       "originalText": "• JS Engine and Web APIs",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "rectangle",
@@ -1914,7 +1914,7 @@
       "containerId": null,
       "originalText": "DOM API",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -1964,7 +1964,7 @@
       "containerId": null,
       "originalText": "Set timeout",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -2005,7 +2005,7 @@
       "containerId": null,
       "originalText": "Set interval",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -2046,7 +2046,7 @@
       "containerId": null,
       "originalText": "fetch()",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -2129,7 +2129,7 @@
       "containerId": null,
       "originalText": "Register\nCALL BACK",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "arrow",
@@ -2415,7 +2415,7 @@
       "containerId": null,
       "originalText": "Task Queue",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -2669,8 +2669,8 @@
     },
     {
       "type": "text",
-      "version": 1645,
-      "versionNonce": 1065183964,
+      "version": 1646,
+      "versionNonce": 453210376,
       "isDeleted": false,
       "id": "rD2ROMwXoajip1DIN-fSL",
       "fillStyle": "solid",
@@ -2694,7 +2694,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890574,
+      "updated": 1733754787247,
       "link": null,
       "locked": false,
       "fontSize": 17.51110677083333,
@@ -2803,8 +2803,8 @@
     },
     {
       "type": "text",
-      "version": 1731,
-      "versionNonce": 294142180,
+      "version": 1732,
+      "versionNonce": 502137720,
       "isDeleted": false,
       "id": "-XWD2PMefyqUxz8o2-MrW",
       "fillStyle": "solid",
@@ -2828,7 +2828,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890574,
+      "updated": 1733754787247,
       "link": null,
       "locked": false,
       "fontSize": 17.51110677083333,
@@ -2933,7 +2933,7 @@
       "containerId": null,
       "originalText": "Add to Call\nStack",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "arrow",
@@ -3093,7 +3093,7 @@
       "containerId": null,
       "originalText": "call",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -3133,7 +3133,7 @@
       "containerId": null,
       "originalText": "Event Loop",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "rectangle",
@@ -3208,7 +3208,7 @@
       "containerId": null,
       "originalText": "Web API",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -3242,8 +3242,8 @@
     },
     {
       "type": "text",
-      "version": 2862,
-      "versionNonce": 1746306148,
+      "version": 2863,
+      "versionNonce": 41947144,
       "isDeleted": false,
       "id": "AiZbn--Y6ABxDnqkROqky",
       "fillStyle": "hachure",
@@ -3265,7 +3265,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890578,
+      "updated": 1733754787250,
       "link": null,
       "locked": false,
       "fontSize": 22.44835992144724,
@@ -3276,7 +3276,7 @@
       "containerId": null,
       "originalText": "JavaScript engine : It is alone javascript engine, it generally made up with the memory heap \nand call stack. If we talk truthfully then this is the javascript engine only, we've already\nlearned about it in the execution context. But we see execution environment like browser eng\n-ine,nodejs, deno it doesnt only contain js engine it comes with additional functionalities \nas javascript is single threaded.\n\nThey generally have webapi's/node js. You can think of it is as web api or node.js, but when \nyou think about the web api you'll get the DOM api but same is not true fot the node env. So\nwe'll think it from the perspective of web api (browser)\n\nThe Event loop: The Event Loop in JavaScript is a mechanism that keeps checking whether the \ncall stack is empty. If it is, it takes the first task from the Task Queue and pushes it to\nthe Call Stack. It's an infinite loop responsible for executing queued code snippets at app\n-ropriate times, hence the name 'Event Loop.\n\nThe Event Loop has one simple job — to monitor the Call Stack and the Task Queue. If the Call\nStack is empty, it will take the first event from the queue and will push it to the Call Stack,\nwhich effectively runs it.\n\nTask Queue: Also known as the 'Message Queue,' the Task Queue in JavaScript is a list of mes\n-sages to be processed. Each message is associated with a function, which gets called to \nhandle that message. As the stack unwinds, it keeps looking at the Task Queue to check if \nthere's something to be executed.\n\nMicrotask Queue/High Priority Queue: Apart from the Task Queue, there's another queue called \nthe 'Microtask Queue.' This queue has higher priority and includes microtasks such as \nPromises. The Event Loop will process all tasks in the Microtask Queue before it gets to the \nTask Queue.\n\nThis is important to note because it can affect the order of execution in your JavaScript \ncode. For instance, Promise callbacks will always run before setTimeout and setInterval \ncallbacks, due to the higher priority of the Microtask Queue.\n\nLet's take an example suppose I console logged, 1, (setTimeout(0, 2)), 3 => See there is \ndelay of 0 sec still 1 3 2 output will be displayed. Because eventhough it is 0 timeout, it \nhas to travel through task queue. Hence when it will complete the cycle it will gets printed,\nhence after 1, 3 => 2 will be printed.\n\nWeb API's : Some APIs are newly in the JS like fetch() that makes promises. Is also works on \nthe task queue, but we expanded the task queue, or we can call it as priority queue. Fetch() \nhas concept of promise, if the work is done successfully notify us, if not then also notify \nus. For such type results we uses the promise/microtask/high priority queue.",
       "lineHeight": 1.2,
-      "baseline": 1126
+      "baseline": 1125
     },
     {
       "type": "line",
@@ -3665,8 +3665,8 @@
     },
     {
       "type": "text",
-      "version": 485,
-      "versionNonce": 768435164,
+      "version": 486,
+      "versionNonce": 1900991608,
       "isDeleted": false,
       "id": "JT43FIyJXB7pMEpaOvLM8",
       "fillStyle": "solid",
@@ -3688,7 +3688,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890579,
+      "updated": 1733754787250,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -3699,7 +3699,7 @@
       "containerId": null,
       "originalText": "Fetch() and Event Loop",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "line",
@@ -4482,7 +4482,7 @@
       "containerId": null,
       "originalText": "DOM API",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -4530,7 +4530,7 @@
       "containerId": null,
       "originalText": "Set timeout",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -4569,7 +4569,7 @@
       "containerId": null,
       "originalText": "Set interval",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -4608,7 +4608,7 @@
       "containerId": null,
       "originalText": "fetch()",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -4687,7 +4687,7 @@
       "containerId": null,
       "originalText": "Register\nCALL BACK",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "arrow",
@@ -4959,7 +4959,7 @@
       "containerId": null,
       "originalText": "Task Queue",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5205,8 +5205,8 @@
     },
     {
       "type": "text",
-      "version": 1958,
-      "versionNonce": 1796233188,
+      "version": 1959,
+      "versionNonce": 789630728,
       "isDeleted": false,
       "id": "xdPkzFH2H0Hqszar42Nwl",
       "fillStyle": "solid",
@@ -5228,7 +5228,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890580,
+      "updated": 1733754787251,
       "link": null,
       "locked": false,
       "fontSize": 17.51110677083333,
@@ -5333,8 +5333,8 @@
     },
     {
       "type": "text",
-      "version": 2040,
-      "versionNonce": 1319929948,
+      "version": 2041,
+      "versionNonce": 577602936,
       "isDeleted": false,
       "id": "4nUlQr9rr4sXv_7ugEePp",
       "fillStyle": "solid",
@@ -5356,7 +5356,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890580,
+      "updated": 1733754787252,
       "link": null,
       "locked": false,
       "fontSize": 17.51110677083333,
@@ -5457,7 +5457,7 @@
       "containerId": null,
       "originalText": "Add to Call\nStack",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "arrow",
@@ -5611,7 +5611,7 @@
       "containerId": null,
       "originalText": "call",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -5649,7 +5649,7 @@
       "containerId": null,
       "originalText": "Event Loop",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "rectangle",
@@ -5720,7 +5720,7 @@
       "containerId": null,
       "originalText": "Web API",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5787,12 +5787,12 @@
       "containerId": null,
       "originalText": "• How fetch works? What is event loop?",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "text",
-      "version": 4380,
-      "versionNonce": 1958653668,
+      "version": 4381,
+      "versionNonce": 691121672,
       "isDeleted": false,
       "id": "wPQ0peDnRpHZV4Kwl-UqY",
       "fillStyle": "hachure",
@@ -5814,7 +5814,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890582,
+      "updated": 1733754787253,
       "link": null,
       "locked": false,
       "fontSize": 22.44835992144724,
@@ -5825,7 +5825,7 @@
       "containerId": null,
       "originalText": "A fetch() promise only rejects when the request fails, for example, because of a badly-formed \nrequest URL or a network error. A fetch() promise does not reject if the server responds with \nHTTP status codes that indicate errors (404, 504, etc.). Instead, a then() handler must check \nthe Response.ok and/or Response.status properties.\n\nEvent Loop: Some functions are of a special types, they requests some special things. Like a \nsetTimeout(). This function goes into the register callback, and we've task queue/callback \nqueue inside it all callbacks are stored. When the time comes of execution, it means putting \nin the callstack and execute. But before sending it into the callstack, there is a event loop \nthat continuously check whether the call stack or task queue is full or empty. If there is \nenough space in the call stack and call back in the task queues time comes to execute. \n(agar nahi hua to baithe rho yahape bus aneka intezaar karo)\n\nfetch(): If we remember from our example the fetch code gets executed first, after that call \nsetTimeout and all are executed. This is because fetch has special queue, namely microtask \nqueue/high priority queue. This queue is only created for fetch.",
       "lineHeight": 1.2,
-      "baseline": 426
+      "baseline": 425
     },
     {
       "type": "arrow",
@@ -5973,7 +5973,7 @@
       "containerId": null,
       "originalText": "Call stack:\n\nLIFO\nMight see arrow\nat bottom but it\nis a stack.\n\nGlobal execution contex\non top of it we put a \nfunctional execution\ncontext",
       "lineHeight": 1.2,
-      "baseline": 204
+      "baseline": 203
     },
     {
       "type": "text",
@@ -6011,7 +6011,7 @@
       "containerId": null,
       "originalText": "• How fetch works?",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "text",
@@ -6689,8 +6689,8 @@
     },
     {
       "type": "text",
-      "version": 5499,
-      "versionNonce": 1919928102,
+      "version": 5500,
+      "versionNonce": 2123241080,
       "isDeleted": false,
       "id": "eYJqSHNcE5NSCvnw5WnmZ",
       "fillStyle": "hachure",
@@ -6716,7 +6716,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726658985397,
+      "updated": 1733754787256,
       "link": null,
       "locked": false,
       "fontSize": 34.86639637223996,
@@ -6765,8 +6765,8 @@
     },
     {
       "type": "text",
-      "version": 5455,
-      "versionNonce": 1551364710,
+      "version": 5456,
+      "versionNonce": 165588232,
       "isDeleted": false,
       "id": "bHLJKA4jJL23PpX7YAh18",
       "fillStyle": "hachure",
@@ -6797,7 +6797,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1726658985397,
+      "updated": 1733754787256,
       "link": null,
       "locked": false,
       "fontSize": 34.86639637223996,
@@ -6999,7 +6999,7 @@
       "containerId": null,
       "originalText": "fetch has two parts, one is orange man that is storing data in the memory and second is green browser/node part.\nThis two parts runs at the same time.",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "text",
@@ -7039,7 +7039,7 @@
       "containerId": null,
       "originalText": "Firs the orange part runs and reserve the space in the memory, assume the name is data (data is not an exact name,\nyou can call it whatever you want.) There is two arrays, onFullFilled and onRjection, it may have different names\nin other books, blogs. They are nothing but the promise(resolve, reject). \nonFullFilled -> resolve | onRejection -> reject. We can't push the values in this arrays and data filed, they are\nprivate fields, it is performed automatically.",
       "lineHeight": 1.2,
-      "baseline": 114
+      "baseline": 115
     },
     {
       "type": "text",
@@ -7079,7 +7079,7 @@
       "containerId": null,
       "originalText": "Second the green part will handles browser based API or Node based API. This sends network request, we can't \ndirectly fires the network request, we need resource this is provided by either browser or node js. Now we got \nthe request,it will either succeed or failed. Whenever we get the response whatever it might be (404 kind) they \nget stored in the onFullFilled (resolve) If request didn't sent, due to some reason it got stuck in the middle \nit means rejection and eventually it is stored in the onRejection (rejection).",
       "lineHeight": 1.2,
-      "baseline": 114
+      "baseline": 115
     },
     {
       "type": "text",
@@ -7119,7 +7119,7 @@
       "containerId": null,
       "originalText": "This data is stored in the memory, intially the value of data is undefined, not exactly undefined but for the \nsake of understanding take it as undefined. Once the request is completed this onFullFilled and onRejection has\nfunction and it full fills the value in the data. Now we've created a reponse variable in the global memory, \nnow its responsibility of the data to full fill the response.",
       "lineHeight": 1.2,
-      "baseline": 90
+      "baseline": 91
     },
     {
       "type": "text",
@@ -7157,7 +7157,7 @@
       "containerId": null,
       "originalText": "Good Articile on fetch: https://blog.logrocket.com/fetch-api-node-js/#history-web-requests",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -7195,7 +7195,7 @@
       "containerId": null,
       "originalText": "Good Article on event loop: https://www.loginradius.com/blog/engineering/understanding-event-loop/",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "line",
@@ -7248,8 +7248,8 @@
     },
     {
       "type": "text",
-      "version": 597,
-      "versionNonce": 2134808028,
+      "version": 598,
+      "versionNonce": 175409016,
       "isDeleted": false,
       "id": "FLprupmg9Xird-U51yKNK",
       "fillStyle": "solid",
@@ -7269,7 +7269,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890588,
+      "updated": 1733754787258,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -7316,7 +7316,7 @@
       "containerId": null,
       "originalText": "Let's understand it in the console, created an array. When console\nlogged it shows properties alogwith method like lenght, and a one\ninteresting thing [[prototype]]: Array(0)\n\nJavascript has one interesting behaviour that is prototypal behav-\niour. Javscript never quits too easily, what it means the thing\nyour expecting is not yet showned or gotten; js will search in the\nabove layer, if not in that layer again on above layer. Technically\nthe flow will be parent -> grand parent -> grand grand parent until\nit gets null.\n\nOur keywords like \"this\", \"new\", \"classes\" and \"prototypal-inheri-\ntance\" is came through prototype. That is why in arrow function we\ncan't use \"this\" keyword.\n\nThis is the behaviour of javascript.",
       "lineHeight": 1.2,
-      "baseline": 378
+      "baseline": 379
     },
     {
       "type": "text",
@@ -7352,7 +7352,7 @@
       "containerId": null,
       "originalText": "• Unnderstanding Prototype",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "line",
@@ -7704,7 +7704,7 @@
       "containerId": null,
       "originalText": "When we looked inside the prototype, we have seen more prototype, we dig more we got more, but when it will stopped, for now in fig.2 prototype: object milana band ho gaya hai.\nLet's understand it",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "image",
@@ -7866,8 +7866,8 @@
     },
     {
       "type": "text",
-      "version": 516,
-      "versionNonce": 2133293660,
+      "version": 517,
+      "versionNonce": 1788070920,
       "isDeleted": false,
       "id": "HJWdzkdEkxaWRzpYZ-GXR",
       "fillStyle": "solid",
@@ -7889,7 +7889,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890590,
+      "updated": 1733754787259,
       "link": null,
       "locked": false,
       "fontSize": 14.715716044108095,
@@ -7938,7 +7938,7 @@
       "containerId": null,
       "originalText": "fig 1",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -7976,7 +7976,7 @@
       "containerId": null,
       "originalText": "fig 2",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -8017,7 +8017,7 @@
       "containerId": null,
       "originalText": "Array",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -8053,7 +8053,7 @@
       "containerId": null,
       "originalText": "We know that everything in Javascript is object, like whenever we create an object like array, string etc. We will learn more about what are objects and what not?",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -8098,7 +8098,7 @@
       "containerId": null,
       "originalText": "Object",
       "lineHeight": 1.2,
-      "baseline": 23
+      "baseline": 22
     },
     {
       "type": "text",
@@ -8134,7 +8134,7 @@
       "containerId": null,
       "originalText": "Null",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "arrow",
@@ -8262,7 +8262,7 @@
       "containerId": null,
       "originalText": "- Object is parent of an Array\n- Then who is parent of Object?\n- Where all this properties of object came from?\n- Object has no parent, it is bascially \"null\".\nAll the methods, are of objects itself.\n\nSo to conclude it all the properties that are of \"Object\" is available to their\nchilds. Inheritance worked here, all properties are available but which one to\nuse, is depends on individual childs",
       "lineHeight": 1.2,
-      "baseline": 210
+      "baseline": 211
     },
     {
       "type": "text",
@@ -8303,7 +8303,7 @@
       "containerId": null,
       "originalText": "String",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "arrow",
@@ -8394,7 +8394,7 @@
       "containerId": null,
       "originalText": "Function",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -8430,7 +8430,7 @@
       "containerId": null,
       "originalText": "Now, one interesting thing, is function is an object or not?\nLet's understand it with code. Refer 01_Object.js\n\nWell technically it reference to Object also. Function behave\nas a function and when it needs it references to the object.\nAt the end we know that, js look for above layer if not find\nthen search in the upper layer. So object is end of world,\nlike in the linux \"/\" you end up at root level.",
       "lineHeight": 1.2,
-      "baseline": 186
+      "baseline": 187
     },
     {
       "type": "arrow",
@@ -8512,7 +8512,7 @@
       "containerId": null,
       "originalText": "Chai Aur Code shared Notes\nHere's what happens behind the scenes when the new keyword is used:",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "text",
@@ -8548,7 +8548,7 @@
       "containerId": null,
       "originalText": "- A new object is created: The new keyword initiates the creation of a new JavaScript object.\n\n- A prototype is linked: The newly created object gets linked to the prototype property of the constructor function.\n                         This means that it has access to properties and methods defined on the constructor's prototype.\n\n- The constructor is called: The constructor function is called with the specified arguments and this is bound to the \n                             newly created object. If no explicit return value is specified from the constructor, Java\n                             Script assumes this, the newly created object, to be the intended return value.\n\n- The new object is returned: After the constructor function has been called, if it doesn't return a non-primitive \n                             value (object, array, function, etc.), the newly created object is returned.",
       "lineHeight": 1.2,
-      "baseline": 258
+      "baseline": 259
     },
     {
       "type": "line",
@@ -8632,7 +8632,7 @@
       "containerId": null,
       "originalText": "• Some keywords this, call, bind, apply when time comes each will be defined now this, call",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "text",
@@ -8668,7 +8668,7 @@
       "containerId": null,
       "originalText": "We have callstack, where we've global execution context that always there, when we define some function it gets added and in LIFO manner it solved.\nEvery function has it's own context, each time it will brings its own memory and there are many things happen inside functional execution context.",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "text",
@@ -8704,7 +8704,7 @@
       "containerId": null,
       "originalText": "function () {\n \n   callme()\n\n}",
       "lineHeight": 1.2,
-      "baseline": 114
+      "baseline": 115
     },
     {
       "type": "text",
@@ -8740,7 +8740,7 @@
       "containerId": null,
       "originalText": "A function has a function inside it, namely callme. So it will create a functional context, it contains another function namely callme() it will also \ncreate a functional context in the call stack.\n\nBut there is problem here \"this\" will refer to whoom? \nThis is old problem in the JavaScript. Now almost it is solved, but still there are some problems. Who's gonna tell the callme() func that which \"this\"\nto make call. In such scenarios, it will refer to the golbal execution context. \n\nYou know, what is the problem of global execution context? Asked in interviews\n\n- When we are in the browswe environment it refers to window -> window.this (window object)\n- When we are in the node environment it refers to empty object -> {}",
       "lineHeight": 1.2,
-      "baseline": 258
+      "baseline": 259
     },
     {
       "type": "text",
@@ -8776,7 +8776,7 @@
       "containerId": null,
       "originalText": "ref: 06_OOP_and_classes/03_call.js",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -8881,7 +8881,7 @@
       "containerId": "WU-lDJNS5otnT1V68QRK1",
       "originalText": "Global Execution Context",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -8955,7 +8955,7 @@
       "containerId": "Rxp_s_dZOFYWTziLqxmvy",
       "originalText": "function Execution Context",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -9029,7 +9029,7 @@
       "containerId": "s27m0yUmqOKTRKNq_vESg",
       "originalText": "function Execution Context",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -9103,7 +9103,7 @@
       "containerId": "-gfESTGCH8A5qxV3tz63K",
       "originalText": "callme func Execution Context",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "text",
@@ -9141,7 +9141,7 @@
       "containerId": null,
       "originalText": "call stack",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "arrow",
@@ -9274,7 +9274,7 @@
       "containerId": null,
       "originalText": "LIFO",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "image",
@@ -9389,7 +9389,7 @@
       "containerId": null,
       "originalText": "1. Our username is not setted up whether the function is executed or not. Technically inside createUser func SetUsername(username) -> only shared the \n   reference, this syntax like SetUsername() might decieve you wrong, technically in JS it shared reference only.\n\n2. So how to call this function? \n   There is method in the JS SetUsername.call(username). It is executing, we check it by console.log(\"called\"). But it is not doing what it intended to do.\n   Let's understand what happened?",
       "lineHeight": 1.2,
-      "baseline": 138
+      "baseline": 139
     },
     {
       "type": "line",
@@ -9472,7 +9472,7 @@
       "containerId": null,
       "originalText": "Since the function is executed, all its variable methods will be deleted from callstack-> picked by garbage collector.\n\nSo the outer function which is CreateUser is never executed. As we never reached there.",
       "lineHeight": 1.2,
-      "baseline": 66
+      "baseline": 67
     },
     {
       "type": "rectangle",
@@ -9550,7 +9550,7 @@
       "containerId": "Mqyzgf_02dmHHePlFRF67",
       "originalText": "callme func Execution Context",
       "lineHeight": 1.2,
-      "baseline": 35
+      "baseline": 34
     },
     {
       "type": "rectangle",
@@ -9658,7 +9658,7 @@
       "containerId": "DdnSq1CucCnzPuqitgBby",
       "originalText": "Global Execution Context",
       "lineHeight": 1.2,
-      "baseline": 15
+      "baseline": 14
     },
     {
       "type": "rectangle",
@@ -9738,12 +9738,12 @@
       "containerId": "5wa1d2YV7fa5hfZFzkndH",
       "originalText": "CreateUser function Execution Context",
       "lineHeight": 1.2,
-      "baseline": 35
+      "baseline": 34
     },
     {
       "type": "text",
-      "version": 1746,
-      "versionNonce": 2087951014,
+      "version": 1747,
+      "versionNonce": 308598904,
       "isDeleted": false,
       "id": "LOgkuM_RMt6uQH0-b2NYo",
       "fillStyle": "solid",
@@ -9766,7 +9766,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726658985400,
+      "updated": 1733754787265,
       "link": null,
       "locked": false,
       "fontSize": 16.27450741038603,
@@ -9923,7 +9923,7 @@
       "containerId": null,
       "originalText": "Aise kaise, usko execute karke gayab thodi na karna hai, uska reference hold karke rakhana hai. So uska \nreference hold karne ki main .call. Aur bhi hai methods, .bind etc. But in this scenario I have to hold \nthe reference, that is why using .call\n\nNow the function is getting called, but still not able to get username. So we have to pass the optional \nparamter to .call(this, username). This \"this\" will tell the function that merawala this use karo kyo ki \nappka to function executtion ke bad uth ke chala jayega. To main mera \"this\" de raha to usako use karo.",
       "lineHeight": 1.2,
-      "baseline": 162
+      "baseline": 163
     },
     {
       "type": "text",
@@ -9959,7 +9959,7 @@
       "containerId": null,
       "originalText": "3.",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -9995,7 +9995,7 @@
       "containerId": null,
       "originalText": "4.",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -10026,8 +10026,8 @@
     },
     {
       "type": "text",
-      "version": 796,
-      "versionNonce": 1054446428,
+      "version": 797,
+      "versionNonce": 1431112456,
       "isDeleted": false,
       "id": "ftJkURqyAZqmnrj7mEAIO",
       "fillStyle": "solid",
@@ -10049,7 +10049,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890597,
+      "updated": 1733754787266,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -10060,7 +10060,7 @@
       "containerId": null,
       "originalText": "Classes In JavaScript",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "line",
@@ -10181,7 +10181,7 @@
       "containerId": null,
       "originalText": "A class syntax is nothing but the syntatic sugar.\nBehind the scene below code is same. Before ES^6\nwe used to write class thing like below. ",
       "lineHeight": 1.2,
-      "baseline": 66
+      "baseline": 67
     },
     {
       "type": "text",
@@ -10219,7 +10219,7 @@
       "containerId": null,
       "originalText": "A class syntax is included in the ES^6.",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -10257,7 +10257,7 @@
       "containerId": null,
       "originalText": "We used here Object.prototype.methodname to inject the properties. There\nare many other ways to do it. It is function but since function also behaves\nlike an Object.",
       "lineHeight": 1.2,
-      "baseline": 66
+      "baseline": 67
     },
     {
       "type": "text",
@@ -10295,7 +10295,7 @@
       "containerId": null,
       "originalText": "• Inheritance (Prototypal inheritance)",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "image",
@@ -10366,7 +10366,7 @@
       "containerId": null,
       "originalText": "JavaScript classes can extend (inherit from) other classes by declaring class MySubclass extends MySuperclass. The subclass will have all of the \nproperties and methods of the superclass, and can also define \nits own properties and methods.\n\n\n- The superclass and subclass can define their own separate constructors. That lets us centralize shared setup code in the superclass, \navoiding duplication in its subclasses. The subclass' constructor calls the superclass' constructor with super(), passing whatever arguments the \nsuperclass' constructor requires.",
       "lineHeight": 1.2,
-      "baseline": 186
+      "baseline": 187
     },
     {
       "type": "image",
@@ -10437,7 +10437,7 @@
       "containerId": null,
       "originalText": "• Static Properties",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "text",
@@ -10475,7 +10475,7 @@
       "containerId": null,
       "originalText": "Jaise hi ek user bane turant usako ek ID assign ho jaye, this sort of things happens in real world\nMango automatically does this this adds.\n\nSometime objects that are initiated from the User we don't want to give access to this createId method\nSo in such cases just use \"static\" keyword. Static will prohibits an access to that particular property.",
       "lineHeight": 1.2,
-      "baseline": 114
+      "baseline": 115
     },
     {
       "type": "text",
@@ -10513,7 +10513,7 @@
       "containerId": null,
       "originalText": "• Bind",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "text",
@@ -10551,7 +10551,7 @@
       "containerId": null,
       "originalText": "In the early days of react, while hitesh was working on point versions. At that time this methods call, bind, apply\ndon't have abstractions inside react. let's understand how work has been done at that time, and this will be the\nbest example to understand the \"bind\" keyword.  At that time those who knows under the hood how JS works, they learned\nall this things pretty quickly. Well this is the story told by hitesh.",
       "lineHeight": 1.2,
-      "baseline": 90
+      "baseline": 91
     },
     {
       "type": "text",
@@ -10589,7 +10589,7 @@
       "containerId": null,
       "originalText": "ref 06_OOP_and_classes/bind.html",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -10627,7 +10627,7 @@
       "containerId": null,
       "originalText": "• Can we change the value of Math.PI? If Yes, how? and If No, why?",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "text",
@@ -10665,7 +10665,7 @@
       "containerId": null,
       "originalText": "Before 3-4 years ago hitesh invited at big fintech platform to take an interview of candidate. \nSo he asked this single question to test the caliber of the candidate. So he asked the above question, it is related to Object.",
       "lineHeight": 1.2,
-      "baseline": 42
+      "baseline": 43
     },
     {
       "type": "text",
@@ -10703,7 +10703,7 @@
       "containerId": null,
       "originalText": "- We have direct access of an Object and there many properties inside it.",
       "lineHeight": 1.2,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "image",
@@ -10774,7 +10774,7 @@
       "containerId": null,
       "originalText": "- Ab ye jo Object hai mynewObj apane aape hi object mujhe pata hai. So inside it, sab yahase inherit karte hai but is prototype \n  ki apani khudki bhi properties hai. But saari show nhi ho rahi\n\n- Sometimes while working in the complex project, we have to learn more objects, so there are some properties which are hidden, \n  this are available but not showned.\n",
       "lineHeight": 1.2,
-      "baseline": 138
+      "baseline": 139
     },
     {
       "type": "line",
@@ -10822,8 +10822,8 @@
     },
     {
       "type": "text",
-      "version": 886,
-      "versionNonce": 138876772,
+      "version": 887,
+      "versionNonce": 975374712,
       "isDeleted": false,
       "id": "7c0HE51pz6OYmqh2hFee9",
       "fillStyle": "solid",
@@ -10845,7 +10845,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726708890601,
+      "updated": 1733754787270,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -10856,7 +10856,7 @@
       "containerId": null,
       "originalText": "Lexical Scoping and Closure",
       "lineHeight": 1.2,
-      "baseline": 34
+      "baseline": 35
     },
     {
       "type": "line",
