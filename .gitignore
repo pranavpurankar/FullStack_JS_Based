@@ -2,4 +2,7 @@
 *.pdf
 
 # Ignore modules folder, it contains node app
-/home/prns/Downloads/Lazer_Focus/JavaScript_CodeAurChai/Udemy_Hitesh/JavaScript/65.Modules
+# /home/prns/Downloads/Lazer_Focus/JavaScript_CodeAurChai/Udemy_Hitesh/JavaScript/65.Modules
+
+# Ignore complete folder
+/home/prns/Downloads/Laser_Focus/JavaScript_CodeAurChai/Udemy_Course_Hitesh/code+files
