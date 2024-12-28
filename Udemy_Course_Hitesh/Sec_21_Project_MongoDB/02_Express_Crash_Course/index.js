@@ -45,16 +45,18 @@ app.put('/teas/:id', (res, req) => {
 })
 
 // Delete tea
-app.delete('/teas/:id', (res,req) => {
+app.delete('/teas/:id', (req, res) => {
     const index = teaData.findIndex(t => t.id === parseInt(req.params.id))
     if(index === -1){
-        return res.status(404).send('tea not found');
+        return res.status(404).send('tea not found, pranav');
     }
     teaData.splice(index, 1)
-    res.status(200).send('deleted')
+    return res.status(204).send('Deleted');
 })
 
 // Listening to port
 app.listen(port,  () => {
     console.log(`Server is running at port: ${port}...`)
 })
+
+// Removed node_modules to save space and watch Video 97 Production talks
