@@ -3,3 +3,8 @@
 
 # Ignore complete folder
 code+files/
+
+# Ignore all node modules
+node_modules/
+package.json
+package-lock.json
